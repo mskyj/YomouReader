@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color2"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingTop="4dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp">
+
+        <!-- EditTextからフォーカス外す用 -->
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true" >
+
+            <requestFocus />
+        </View>
+
+        <EditText
+            android:id="@+id/novel_list_keyword_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint=" キーワード"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/novel_list_exe_button"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:background="@layout/common_button_style2"
+            android:text="検索" />
+
+        <ImageButton
+            android:id="@+id/novel_list_menu_button"
+            android:layout_width="50dp"
+            android:layout_height="44dp"
+            android:scaleType="fitCenter"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:background="@null"
+            android:src="@drawable/icon_menu" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/novel_list_search_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="8dp"
+        android:text="検索結果："
+        android:textColor="@color/color5"
+        android:textSize="16sp" >
+    </TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color5" />
+
+    <ExpandableListView
+        android:id="@+id/top_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadingEdge="none" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black" />
+
+</LinearLayout>

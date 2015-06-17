@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/page_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/color2"
+        android:fadingEdge="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/page_title_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/test"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/page_chapter_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/test"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/page_subtitle_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center_horizontal"
+                android:text="@string/test"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/page_content_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="16dp"
+                android:lineSpacingExtra="6sp"
+                android:text="@string/test"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <Button style="@style/CommonMenuButton"
+            android:id="@+id/page_menu_back"
+            android:drawableTop="@drawable/icon_left"
+            android:text="前のページ"/>
+		<Button style="@style/CommonMenuButton"
+            android:id="@+id/page_menu_bookmark"
+            android:drawableTop="@drawable/icon_bookmark"
+            android:text="しおり"/>
+		<Button style="@style/CommonMenuButton"
+            android:id="@+id/page_menu_star"
+            android:drawableTop="@drawable/icon_star_off"
+            android:text="お気に入り"/>
+		<Button style="@style/CommonMenuButton"
+            android:id="@+id/page_menu_more"
+            android:drawableTop="@drawable/icon_more"
+            android:text="その他"/>
+		<Button style="@style/CommonMenuButton"
+            android:id="@+id/page_menu_next"
+            android:drawableTop="@drawable/icon_right"
+            android:text="次のページ"/>
+    </LinearLayout>
+
+</LinearLayout>

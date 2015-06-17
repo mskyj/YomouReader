@@ -1,0 +1,65 @@
+<resources>
+    <style name="Animation" parent="android:Animation" />
+
+    <style name="Animation.Activity" parent="android:Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_open_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_open_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_close_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_close_exit</item>
+    </style>
+
+    <style name="MyAlertDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="MyCheckBox">
+        <item name="android:button">@layout/common_checkbox</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingLeft">48dp</item>
+        <item name="android:text">"   "</item>
+    </style>
+
+    <style name="MyProgressDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <drawable name="translucent_background">#66000000</drawable>
+
+    <style name="Theme.MyTrans" parent="android:style/Theme.Translucent">
+        <item name="android:windowBackground">@drawable/translucent_background</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="CommonButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:textColor">@layout/common_button_text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:background">@layout/common_button_style</item>
+    </style>
+
+    <!-- 共通 -->
+    <style name="CommonMenuButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:drawablePadding">4dp</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+</resources>

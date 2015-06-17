@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="sidemenu_width">200dp</dimen>
+    <dimen name="sidemenu_offset">120dp</dimen>
+
+    <integer name="num_cols">1</integer>
+
+</resources>

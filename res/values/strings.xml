@@ -1,0 +1,86 @@
+<resources>
+
+    <string name="app_name">Yomou</string>
+	<string name="test">テスト</string>
+	<string name="no_image">no image</string>
+	<string name="activity_animation_duration">300</string>
+	<string-array name="sort_list">
+		<item>新着順</item>
+		<item>ブックマーク登録の多い順</item>
+		<item>レビュー数の多い順</item>
+		<item>総合評価の高い順</item>
+		<item>総合評価の低い順</item>
+		<item>感想の多い順</item>
+		<item>評価者数の多い順</item>
+		<item>評価者数の少ない順</item>
+		<item>週間ユニークアクセス順</item>
+		<item>文字数の多い順</item>
+		<item>文字数の少ない順</item>
+		<item>Nコードが新しい順</item>
+		<item>古い順</item>
+	</string-array>
+	<string-array name="genre_list">
+	    <item>すべて</item>
+		<item>文学</item>
+		<item>恋愛</item>
+		<item>歴史</item>
+		<item>推理</item>
+		<item>ファンタジー</item>
+		<item>SF</item>
+		<item>ホラー</item>
+		<item>コメディー</item>
+		<item>冒険</item>
+		<item>学園</item>
+		<item>戦記</item>
+		<item>童話</item>
+		<item>詩</item>
+		<item>エッセイ</item>
+		<item>その他</item>
+		<item>リプレイ</item>
+	</string-array>
+	<string-array name="type_list">
+	    <item>すべて</item>
+		<item>短編のみ</item>
+		<item>完結編のみ(短編小説含む)</item>
+		<item>連載中小説のみ</item>
+		<item>すべての連載小説</item>
+		<item>完結済連載小説のみ</item>
+	</string-array>
+	<string-array name="ranking_list_type_list">
+	    <item>総合</item>
+		<item>ジャンル別</item>
+		<item>セカンド</item>
+	</string-array>
+	<string-array name="ranking_type_list">
+	    <item>日間</item>
+		<item>週間</item>
+		<item>月間</item>
+		<item>四半期</item>
+		<item>年間</item>
+		<item>累計</item>
+	</string-array>
+	<string-array name="ranking_genre_list">
+		<item>文学</item>
+		<item>恋愛</item>
+		<item>歴史</item>
+		<item>推理</item>
+		<item>ファンタジー</item>
+		<item>SF</item>
+		<item>ホラー</item>
+		<item>コメディー</item>
+		<item>冒険</item>
+		<item>学園</item>
+		<item>戦記</item>
+		<item>童話</item>
+		<item>詩</item>
+		<item>エッセイ</item>
+		<item>その他</item>
+		<item>リプレイ</item>
+	</string-array>
+	<string-array name="ranking_num_list">
+	    <item>10</item>
+		<item>20</item>
+		<item>50</item>
+		<item>100</item>
+	</string-array>
+</resources>
